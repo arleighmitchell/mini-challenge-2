@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+}
+
+.title {
+	margin: 50px;
+}
+
+form {
+	margin: 20px;
+}
+
+.btn-primary {
+	margin: 25px;
+}
+
+.btn-danger {
+	margin: 25px;
+}
