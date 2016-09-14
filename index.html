@@ -11,18 +11,24 @@
 <body>
 	<h1 class="title">Mini-Challange: Scope/Dom/Event!</h1>
 
-<form action="/process" method="POST">
+<form>
   <label for="username">Username</label>
   <input type="text" name="username" id="username">
   <label for="password">Password</label>
-  <input type="password" name="password">
-  <input type="submit" value="Submit">
+  <input type="password" name="password" id="password">
+  <label for="email">Email</label>
+  <input type="text" name="email" id="email">
+  <input type="submit" value="Submit" id="submit">
+
 </form>
 
+<button type="button" value="show div" onclick="showDiv1()" class="btn btn-primary">
+	Ponies are the Most Magical!!
+</button>
 
-
-<button type="button" value="show div" onclick="showDiv1()" class="btn btn-primary">Ponies are the Most Magical!!</button>
-<button type="button" value="show div" onclick="showDiv2()" class="btn btn-danger">Kitties are the Most Magical!!</button>
+<button type="button" value="show div" onclick="showDiv2()" class="btn btn-danger">
+	Kitties are the Most Magical!!
+</button>
 
 <div id="Div1"  style="display:none;" class="answer_list" >
 	I'm Right!
@@ -34,8 +40,6 @@
 
 <div class="div3" onmouseover="alert('Hey, I told you NOT to hover over me!')">
 	Don't Hover Over Me.
-</div>
->
 </div>
 
 <script type="text/javascript" src="assets/js/index.js"></script>
